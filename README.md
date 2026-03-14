@@ -1,8 +1,4 @@
-# Flutter Widget 基础
-
-## 简介
-
-展示 Flutter 的基本 Widget，包括 Text、ElevatedButton、Icon、Image 等常用组件。
+# Flutter widget-basics
 
 ## 启动
 
@@ -15,22 +11,5 @@ flutter run
 
 ## 教程
 
-### 常用 Widget
+Flutter widget-basics 示例。
 
-- **Text**: 文本显示
-- **ElevatedButton**: 按钮
-- **Icon**: 图标
-- **Image**: 图片
-
-### 代码示例
-
-```dart
-Column(
-  children: [
-    Text('Hello'),
-    ElevatedButton(onPressed: () {}, child: Text('Click')),
-    Icon(Icons.star),
-    Image.network('https://example.com/image.png'),
-  ],
-)
-```
